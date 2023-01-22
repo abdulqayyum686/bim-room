@@ -1,0 +1,218 @@
+.footer-component {
+  background-color: #313133;
+  width: 100%;
+  //padding: 50px 25px;
+  padding: 40px 25px;
+
+  .main-wrapper {
+    //max-width: 1366px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+      width: 22%;
+
+      img {
+        max-width: 100%;
+        max-height: 140px;
+      }
+
+      .para {
+        margin-top: 20px;
+        color: #fff;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+      }
+    }
+
+    .center {
+      width: 40%;
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-evenly;
+
+      .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .link {
+          cursor: pointer;
+          font-family: "Poppins";
+          font-size: 14px;
+          font-weight: 400;
+          text-decoration: none;
+          color: #fff;
+
+          //margin-bottom: 25px;
+          margin-bottom: 16px;
+          margin-top: 4px;
+          transition: all 0.1s ease-in-out;
+
+          &:hover {
+            color: #feb449;
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+
+      .text {
+        color: #fff;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+      }
+
+      .email-send {
+        //margin-top: 30px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+
+        input {
+          background-color: transparent;
+          outline: none;
+          border: none;
+          padding: 12px;
+          width: 100%;
+          color: #fff;
+          font-family: "Poppins";
+          font-weight: 400;
+          font-size: 14px;
+          color: #8e8e8e;
+        }
+
+        .send-btn {
+          border-radius: 5px;
+          cursor: pointer;
+          min-width: 80px;
+          height: 100%;
+          background-color: #feb449;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            margin-top: 5px;
+            width: 35px;
+          }
+        }
+      }
+
+      .social-links {
+        margin-top: 25px;
+        display: flex;
+        //justify-content: center;
+        justify-content: end;
+        align-items: center;
+
+        .icon {
+          cursor: pointer;
+          margin: 0 15px;
+          font-size: 25px;
+          color: #fff;
+        }
+
+        .icon:hover {
+          color: #feb449;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer-component {
+    padding: 40px 20px;
+
+    .main-wrapper {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .left {
+        max-width: 500px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .para {
+          text-align: center;
+        }
+      }
+
+      .center {
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 50px 0 40px;
+      }
+
+      .right {
+        max-width: 500px;
+        width: 100%;
+
+        .email-send {
+          height: 50px;
+
+          input {
+            padding: 0 15px;
+          }
+        }
+
+        .social-links {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer-component {
+    .main-wrapper {
+      .center {
+        margin: 40px 0 30px;
+        flex-direction: column;
+
+        .menu {
+          .link {
+            font-size: 13px;
+          }
+        }
+      }
+
+      .right {
+        .email-send {
+          height: 50px;
+
+          input {
+            padding: 0 10px;
+            font-size: 12px;
+          }
+
+          .send-btn {
+            min-width: 65px;
+          }
+        }
+      }
+    }
+  }
+}

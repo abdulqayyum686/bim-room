@@ -1,0 +1,261 @@
+.blog-page {
+  .main-title {
+    margin: 120px 0 0;
+    text-align: center;
+    font-family: "Poppins" !important;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #202020;
+  }
+
+
+  .blog-containor {
+    background: rgba(233, 233, 233, .4);
+    mix-blend-mode: normal;
+    // box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.15);
+
+  }
+
+  .main-wrappper {
+    display: flex;
+    // max-width: 1339px;
+    max-width: 1920px;
+    margin: 200px auto 0;
+
+    .left {
+      width: 50%;
+      margin: -70px 0 -70px;
+      padding-right: 25px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .right {
+      padding: 0 25px;
+      width: 50%;
+
+      .title {
+        font-family: "Poppins" !important;
+        font-size: 40px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #202020;
+        margin-top: -30px;
+        margin-bottom: 30px;
+      }
+
+      .para {
+        font-family: "Poppins" !important;
+        font-size: 21px;
+        letter-spacing: .04em;
+        color: #000;
+
+        p {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .main-wrappper1 {
+    margin-top: 300px;
+
+    .left {
+      margin: -100px 0 -100px;
+    }
+  }
+
+  .main-wrappper2 {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    flex-direction: row-reverse;
+
+    .left {
+      padding-left: 25px;
+      padding-right: 0;
+      margin: -150px 0 -150px;
+    }
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .blog-page {
+    .main-title {
+      margin: 100px 0 0;
+      font-size: 40px;
+    }
+
+    .main-wrappper {
+      margin: 150px auto 0;
+
+      .left {
+        margin: -50px 0 -50px;
+        padding-right: 20px;
+      }
+
+      .right {
+        padding: 0 20px;
+
+        .title {
+          font-size: 35px;
+          margin-top: -25px;
+          margin-bottom: 20px;
+        }
+
+        .para {
+          font-size: 19px;
+
+          p {
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+
+    .main-wrappper1 {
+      margin-top: 200px;
+    }
+
+    .main-wrappper2 {
+      margin-top: 250px;
+      margin-bottom: 250px;
+
+      .left {
+        padding-left: 20px;
+        margin: -150px 0 -150px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .blog-page {
+    .main-title {
+      margin: 100px 0 0;
+      font-size: 40px;
+    }
+
+    .main-wrappper {
+      margin: 150px auto 0;
+
+      .left {
+        margin: 0;
+        padding: 20px 20px 20px 0;
+        display: flex;
+        align-items: center;
+      }
+
+      .right {
+        padding: 0 20px;
+
+        .title {
+          font-size: 30px;
+          margin-top: -25px;
+        }
+
+        .para {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .main-wrappper1 {
+      margin-top: 150px;
+    }
+
+    .main-wrappper2 {
+      margin-top: 200px;
+      margin-bottom: 200px;
+
+      .left {
+        padding-left: 20px;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .blog-page {
+    .main-title {
+      margin: 70px 0 0;
+      font-size: 35px;
+    }
+
+    .main-wrappper {
+      margin: 100px auto 0;
+      flex-direction: column-reverse;
+
+      .left {
+        width: 100%;
+        padding: 20px 20px 20px 0;
+        justify-content: center;
+
+        img {
+          max-width: 400px;
+        }
+      }
+
+      .right {
+        width: 100%;
+      }
+    }
+
+    .main-wrappper1 {
+      margin-top: 100px;
+    }
+
+    .main-wrappper2 {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .blog-page {
+    .main-title {
+      margin: 50px 0 0;
+      font-size: 30px;
+    }
+
+    .main-wrappper {
+      margin: 70px auto 0;
+
+      .left {
+        padding: 10px;
+
+        img {
+          max-width: 100%;
+        }
+      }
+
+      .right {
+        width: 100%;
+        padding: 0 10px;
+
+        .title {
+          font-size: 25px;
+          margin-top: -15px;
+          margin-bottom: 15px;
+        }
+
+        .para {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .main-wrappper1 {
+      margin-top: 70px;
+    }
+
+    .main-wrappper2 {
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
+  }
+}

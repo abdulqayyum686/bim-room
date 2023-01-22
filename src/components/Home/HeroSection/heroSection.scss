@@ -1,0 +1,35 @@
+.hero-section {
+
+  .carousel {
+
+    .slick-list {
+      overflow: unset !important;
+
+    }
+
+    .slick-arrow {
+      display: none !important;
+    }
+
+    .slick-dots {
+      bottom: 15px !important;
+
+      li button:before {
+        display: none;
+      }
+
+      li {
+        width: 12px !important;
+        height: 12px !important;
+        background-color: #fff !important;
+        border-radius: 50%;
+        border: 1px solid #313133;
+        transition: all .1s ease;
+      }
+
+      .slick-active {
+        background-color: #f7a928 !important;
+      }
+    }
+  }
+}

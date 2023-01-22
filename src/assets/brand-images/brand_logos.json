@@ -1,0 +1,316 @@
+[{
+	"brand": "abb",
+	"image": "abb-2x1.png"
+}, {
+	"brand": "alsecco",
+	"image": "alsecco.png"
+}, {
+	"brand": "alucobond",
+	"image": "alucobond.png"
+}, {
+	"brand": "baier",
+	"image": "baier.png"
+}, {
+	"brand": "bemo",
+	"image": "baier.png"
+}, {
+	"brand": "brucha",
+	"image": "brucha.png"
+}, {
+	"brand": "bruninghoff",
+	"image": "bruninghoff.jpg"
+}, {
+	"brand": "caparol",
+	"image": "caparol.png"
+}, {
+	"brand": "dallmer",
+	"image": "dallmer.png"
+}, {
+	"brand": "dorken",
+	"image": "doerken.png"
+}, {
+	"brand": "efaflex",
+	"image": "efaflex.png"
+}, {
+	"brand": "egger",
+	"image": "egger.png"
+}, {
+	"brand": "enersign",
+	"image": "enersign.jpg"
+}, {
+	"brand": "ensinger",
+	"image": "ensinger.png"
+}, {
+	"brand": "equitone",
+	"image": "equitone.png"
+}, {
+	"brand": "fuma",
+	"image": "fuma.png"
+}, {
+	"brand": "gealan",
+	"image": "gealan.png"
+}, {
+	"brand": "geggus",
+	"image": "geggus.png"
+}, {
+	"brand": "gkd-metal",
+	"image": "gkd.jpg"
+}, {
+	"brand": "godelmann",
+	"image": "godelmann.png"
+}, {
+	"brand": "bg-graspointner",
+	"image": "graspointner.png"
+}, {
+	"brand": "grohe",
+	"image": "grohe.png"
+}, {
+	"brand": "guggemos",
+	"image": "guggemos.png"
+}, {
+	"brand": "hebel",
+	"image": "hebel.jpg"
+}, {
+	"brand": "heidelberger",
+	"image": "heidelberger.png"
+}, {
+	"brand": "hh-porenbeton",
+	"image": "hplush.png"
+}, {
+	"brand": "hueck",
+	"image": "hueck.png"
+}, {
+	"brand": "hufcor",
+	"image": "hufcor.png"
+}, {
+	"brand": "jordahl",
+	"image": "jordahl.png"
+}, {
+	"brand": "knauf",
+	"image": "knauf.png"
+}, {
+	"brand": "ks-quadro",
+	"image": "ks-quadro.png"
+}, {
+	"brand": "lamilux",
+	"image": "lamilux.png"
+}, {
+	"brand": "metawell",
+	"image": "metawell.png"
+}, {
+	"brand": "metecno",
+	"image": "metecno.png"
+}, {
+	"brand": "miele",
+	"image": "miele-2x1.png"
+}, {
+	"brand": "multipor",
+	"image": "multipor.jpg"
+}, {
+	"brand": "niedax",
+	"image": "niedax.png"
+}, {
+	"brand": "franz",
+	"image": "nuesing.png"
+}, {
+	"brand": "onlevel",
+	"image": "onlevel.png"
+}, {
+	"brand": "optigrun",
+	"image": "optigrun.png"
+}, {
+	"brand": "oventrop",
+	"image": "oventrop.png"
+}, {
+	"brand": "owa-odenwald",
+	"image": "owa.png"
+}, {
+	"brand": "peneder",
+	"image": "peneder.png"
+}, {
+	"brand": "performancein",
+	"image": "performance-lighting.png"
+}, {
+	"brand": "planlicht",
+	"image": "planlicht.png"
+}, {
+	"brand": "protektor",
+	"image": "protektor.png"
+}, {
+	"brand": "purmo",
+	"image": "purmo.jpg"
+}, {
+	"brand": "regent",
+	"image": "regent.png"
+}, {
+	"brand": "resopal",
+	"image": "resopal.png"
+}, {
+	"brand": "rieder",
+	"image": "rieder.png"
+}, {
+	"brand": "roto",
+	"image": "roto.png"
+}, {
+	"brand": "schenker",
+	"image": "schenker-storen.png"
+}, {
+	"brand": "schneider",
+	"image": "schneider.png"
+}, {
+	"brand": "schulte",
+	"image": "schulte.png"
+}, {
+	"brand": "siegenia",
+	"image": "siegenia.jpg"
+}, {
+	"brand": "siemens",
+	"image": "siemens.png"
+}, {
+	"brand": "silikal",
+	"image": "silikal.png"
+}, {
+	"brand": "silka",
+	"image": "silka.jpg"
+}, {
+	"brand": "sto",
+	"image": "sto.png"
+}, {
+	"brand": "svt",
+	"image": "svt.png"
+}, {
+	"brand": "tecnoalarm",
+	"image": "tecnoalarm.png"
+}, {
+	"brand": "trilux",
+	"image": "trilux.png"
+}, {
+	"brand": "ursa",
+	"image": "ursa.png"
+}, {
+	"brand": "wicona",
+	"image": "wicona.png"
+}, {
+	"brand": "xal",
+	"image": "xal.png"
+}, {
+	"brand": "ytong",
+	"image": "ytong.jpg"
+}, {
+	"brand": "ab",
+	"image": "bocciolone-antincendio-2x1.png"
+}, {
+	"brand": "amcf",
+	"image": "amcf-ag.png"
+}, {
+	"brand": "bimify-collection",
+	"image": "b-collection-2x1.png"
+}, {
+	"brand": "bimroom-collection",
+	"image": "b-collection-2x1.png"
+}, {
+	"brand": "brown-jordan",
+	"image": "brown-jordan-2x1.png"
+}, {
+	"brand": "cosentino",
+	"image": "cosentino-2x1.png"
+}, {
+	"brand": "ecophon",
+	"image": "ecophon-2x1.png"
+}, {
+	"brand": "genelec",
+	"image": "genelec-2x1.png"
+}, {
+	"brand": "geostaff",
+	"image": "geostaff-2x1.png"
+}, {
+	"brand": "hafele",
+	"image": "hafele-2x1.png"
+}, {
+	"brand": "hilti",
+	"image": "hilti-2x1.png"
+}, {
+	"brand": "internorm",
+	"image": "internorm-2x1.png"
+}, {
+	"brand": "kahrs",
+	"image": "Kahrs-2x1.png"
+}, {
+	"brand": "kinnarps",
+	"image": "kinnarps-2x1.png"
+}, {
+	"brand": "moderna",
+	"image": "moderna-2x1.png"
+}, {
+	"brand": "profin",
+	"image": "profin-2x1.png"
+}, {
+	"brand": "ramons",
+	"image": "ramons-2x1.png"
+}, {
+	"brand": "svedbergs",
+	"image": "svedbergs-2x1.png"
+}, {
+	"brand": "tarkett",
+	"image": "tarkett-2x1.png"
+}, {
+	"brand": "tata-steel",
+	"image": "tata-steel.png"
+}, {
+	"brand": "toshiba",
+	"image": "toshiba-2x1.png"
+}, {
+	"brand": "vitra",
+	"image": "vitra-2x1.png"
+}, {
+	"brand": "zero",
+	"image": "zero-2x1.png"
+}, {
+	"brand": "fischer",
+	"image": "fischer.png"
+}, {
+	"brand": "griesser",
+	"image": "griesser.png"
+}, {
+	"brand": "hansa",
+	"image": "hansa.png"
+}, {
+	"brand": "kwc",
+	"image": "kwc.png"
+}, {
+	"brand": "hawa",
+	"image": "hawa.png"
+}, {
+	"brand": "schueco",
+	"image": "schuco.png"
+}, {
+	"brand": "schuco",
+	"image": "schuco.png"
+}, {
+	"brand": "duscholux",
+	"image": "duscholux.png"
+}, {
+	"brand": "wanzl",
+	"image": "wanzl.png"
+}, {
+	"brand": "kaldewei",
+	"image": "kaldewei.png"
+}, {
+	"brand": "jansen-ag",
+	"image": "jansen.png"
+}, {
+	"brand": "jansen",
+	"image": "jansen.png"
+}, {
+	"brand": "kwc-group",
+	"image": "kwc.png"
+}, {
+	"brand": "kwc",
+	"image": "kwc.png"
+}, {
+	"brand": "mtu",
+	"image": "mtu.png"
+}, {
+	"brand": "mbcc-group",
+	"image": "mbcc-group.jpg"
+}]
