@@ -1,0 +1,103 @@
+.menu_container {
+  padding: 120px 80px 150px 80px;
+  max-width: 1500px;
+  margin: auto;
+}
+.menu_back_btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 21px;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+.menu_heaing {
+  font-size: 56px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.menu_why_bimroom {
+  margin-top: 91px;
+  background-image: linear-gradient(
+      270deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 94.83%
+    ),
+    url("../../assets/images/menufacture/whyroom.png");
+
+  height: 955px;
+  background-position: left;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu_why_bimrom_point {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.menu_why_bim_text {
+  max-width: 591px;
+  font-size: 21px;
+  padding-top: 20px;
+  z-index: 1;
+  line-height: 32px;
+  font-family: "Poppins", sans-serif;
+}
+.menu_cutom_feature_box {
+  margin-top: 91px;
+  background-image: linear-gradient(
+      to right,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 94.83%
+    ),
+    url("../../assets/images/menufacture/cutom.png");
+
+  height: 955px;
+  background-position: right;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu_traing_sec {
+  margin-top: 91px;
+  background-image: linear-gradient(
+      to left,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 94.83%
+    ),
+    url("../../assets/images/menufacture/traing.png");
+
+  height: 955px;
+  background-position: left;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu_cutom_text {
+  max-width: 591px;
+  font-size: 21px;
+  z-index: 1;
+  padding-top: 43px;
+  line-height: 32px;
+  font-family: "Poppins", sans-serif;
+}
+.menu_traing_text {
+  max-width: 591px;
+  font-size: 21px;
+  padding-top: 33px;
+  z-index: 1;
+  line-height: 32px;
+  font-family: "Poppins", sans-serif;
+}
+.menu_custom_box{
+    padding-top: 60px;
+}
