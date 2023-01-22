@@ -19,27 +19,32 @@ const FeaturedObjects = () => {
   const navigate = useNavigate();
   return (
     <div className="home-featured-section">
-      <div className="main-title">Featured Products</div>
+      <div className="main-title">Featured Objects</div>
 
       <div className="main-wrapper">
         <div className="left">
           <div className="feature1">
-            <div className="brand">
-              <img src={brand} alt="" />
-            </div>
-
-            <div className="items">23 items</div>
 
             <div className="p_image">
               <img src={pic1} alt="" />
             </div>
 
-            <div className="view">
-              <div className="text" onClick={() => navigate("/product/search/?brands=Bimroom%2520Collection")}>
+            {/* <div className="view">
+              <div
+                className="text"
+            
+                onClick={() =>
+                  navigate("/product/search/?brands=Bimroom%2520Collection")
+                }
+              >
                 View More
               </div>
               <img src={forwardIcon} alt="" />
+            </div> */}
+            <div className="brand">
+              <img src={brand} alt="" />
             </div>
+            <div className="items">23 items</div>
           </div>
         </div>
 
@@ -72,7 +77,10 @@ const FeaturedObjects = () => {
               </div>
 
               <div className="view">
-                <div className="text" onClick={() => navigate("/product/search/Lighting/")}>
+                <div
+                  className="text"
+                  onClick={() => navigate("/product/search/Lighting/")}
+                >
                   View More
                 </div>
                 <img src={forwardIcon} alt="" />
@@ -89,7 +97,10 @@ const FeaturedObjects = () => {
               </div>
 
               <div className="view">
-                <div className="text" onClick={() => navigate("/product/search/HVAC/")}>
+                <div
+                  className="text"
+                  onClick={() => navigate("/product/search/HVAC/")}
+                >
                   View More
                 </div>
                 <img src={forwardIcon} alt="" />
@@ -100,7 +111,7 @@ const FeaturedObjects = () => {
       </div>
 
       <LoadMore
-        text={true ? "Show all featured Products" : "Hide featured Products"}
+        text={true ? "Show all" : "Hide featured Products"}
         down={true ? true : false}
         onClick={() => {}}
       />

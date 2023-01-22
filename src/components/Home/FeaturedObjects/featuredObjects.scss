@@ -3,17 +3,17 @@
   max-width: 1920px;
   margin: auto;
   //padding: 0px 25px;
+  background: #175c83;
 
   .main-title {
     font-family: "Poppins" !important;
-    font-size: 24px;
-    font-weight: 500;
-    text-transform: lowercase;
+    font-size: 42px;
+    font-weight: 700;
     text-align: center;
-    color: #313133;
+    color: #000000;
     text-transform: uppercase;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 111px;
+    padding-bottom: 86px;
   }
 
   .main-wrapper {
@@ -24,23 +24,24 @@
 
     .left {
       width: 50%;
-      background: #fff;
+      border-radius: 64px;
+      background: #ffffff;
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
 
       .feature1 {
         position: relative;
         height: 100%;
         display: flex;
         flex-direction: column;
-
+        justify-content: center;
         padding: 25px;
-
+       
         .brand {
           width: 250px;
-
+          margin-left: 56px;
           img {
             max-width: 100%;
+            // margin-left: 56px;
           }
         }
 
@@ -93,10 +94,9 @@
       gap: 25px;
 
       .feature2 {
-        background: #fff;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-
+        border-radius: 64px;
+        background: #ffffff;
         display: flex;
 
         .f2-left {
@@ -148,10 +148,9 @@
         .feature3,
         .feature4 {
           width: 50%;
-
-          background: #fff;
+          border-radius: 64px;
+          background: #ffffff;
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-          border-radius: 5px;
 
           display: flex;
 
