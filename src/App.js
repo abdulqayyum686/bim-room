@@ -27,6 +27,7 @@ import Plugin from "./pages/Plugin";
 import About from "./pages/About";
 import PageNotFound from "./pages/NotFound";
 import DownloadStart from "./pages/DownloadStart";
+import MenuFacture from "./components/Manufacture"
 
 // api's
 // import { getProjects, createUser, getUserDetail, getReviewAndRating, getReviews, getKey } from "./api";
@@ -105,6 +106,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/download-start" element={<DownloadStart />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/menufacture" element={<MenuFacture />} />
       </Routes>
     </>
   );
