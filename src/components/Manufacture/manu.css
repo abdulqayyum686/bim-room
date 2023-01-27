@@ -1,6 +1,6 @@
 .menu_container {
   padding: 120px 80px 150px 80px;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: auto;
 }
 .menu_back_btn {
@@ -98,6 +98,12 @@
   line-height: 32px;
   font-family: "Poppins", sans-serif;
 }
-.menu_custom_box{
-    padding-top: 60px;
+.menu_custom_box {
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 575px) {
+  .home-category-section {
+    padding: 0px 10px;
+  }
 }

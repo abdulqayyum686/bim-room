@@ -5,7 +5,11 @@ import { useNavigate } from "react-router-dom";
 
 // images & icons
 //import bimroomlogoorange from '../../assets/images/home/bimroom-demo-orange.svg'
-import bimroomlogoorange from '../../assets/images/home/bimroomlogoorange.svg';
+import bimroomlogoorange from "../../assets/images/home/bimroom-logo-orange 1.png";
+import linkedin from "../../assets/images/home/Vector (1).png";
+import twitter from "../../assets/images/home/Vector.png";
+import arrow from "../../assets/images/home/Vector (2).png";
+
 import logo from "../../assets/images/navbar/logo.png";
 import sendIcon from "../../assets/images/footer/send-icon.png";
 import { FaFacebookSquare, FaTwitter } from "react-icons/fa";
@@ -19,57 +23,59 @@ const Footer = () => {
     <div className="footer-component">
       <div className="main-wrapper">
         <div className="left">
-          {/* <img src={logo} alt="" /> */}
-          <img src={bimroomlogoorange} alt="" /> 
-
-          {/* <div className="para">
-            bimroom is a premium BIM object library to supply your project with
-            the best digital products available. Our content is exclusively
-            composed of fully parametric, carefully curated BIM objects which
-            make it easy to bring your vision to life. Bimroom objects meet
-            strict quality criteria and possess the features to ensure smooth
-            modeling across the entire lifecycle of your project.
-          </div> */}
+          <img src={bimroomlogoorange} alt="" />
         </div>
 
         <div className="center">
           <div className="menu">
-            <div className="link" onClick={() => navigate("/")}>Home</div>
-            <div className="link" onClick={() => navigate("/plugin")}>Plugins</div>
-            <div className="link" onClick={() => navigate("/manufacturers")}>Manufacturers</div>
+            <div className="link" onClick={() => navigate("/")}>
+              Bimroom Plugin
+            </div>
+            <div className="link" onClick={() => navigate("/plugin")}>
+              Contact
+            </div>
+            <div className="link" onClick={() => navigate("/manufacturers")}>
+              About us
+            </div>
+            <div className="link" onClick={() => navigate("/manufacturers")}>
+              Help
+            </div>
+            <div className="link" onClick={() => navigate("/manufacturers")}>
+              Terms
+            </div>
             {/* <div className="link">About us</div> */}
           </div>
 
-          <div className="menu">
-            <div className="link" onClick={() => navigate("/about")}>About us</div>
-            <div className="link" onClick={() => navigate("/contact")}>Contact</div>
-            <div className="link" onClick={() => navigate("/terms")}>Terms of Use</div>
-           {/* <div className="link">Guidelines</div> */}
+          <div className="menu margin_left">
+            <div className="link" onClick={() => navigate("/about")}>
+              Guidelines
+            </div>
+            <div className="link" onClick={() => navigate("/contact")}>
+              Testimonials
+            </div>
+            <div className="link" onClick={() => navigate("/terms")}>
+              Advertise
+            </div>
+            <div className="link" onClick={() => navigate("/contact")}>
+              Intergrations
+            </div>
+            <div className="link" onClick={() => navigate("/terms")}>
+              Careers
+            </div>
+            {/* <div className="link">Guidelines</div> */}
           </div>
-
-          {/* <div className="menu">
-            <div className="link">Testimonials</div>
-            <div className="link">Advertise</div>
-            <div className="link">Integrations</div>e
-            <div className="link">Careers</div>
-          </div>*/}
-        </div> 
+        </div>
 
         <div className="right">
-          <div className="text">
-            Stay in touch with us for the latest updates
+          <div className="socialicons">
+            <img src={linkedin} alt="" />
+            <img src={twitter} alt="" />
           </div>
-
-          <div className="email-send">
-            <input placeholder="Enter your email address" />
-            <div className="send-btn">
-              <img src={sendIcon} alt="" />
+          <div className="bottom_wrapper">
+            <div className="text">
+              Stay in touch with us for the latest updates!
             </div>
-          </div>
-          <div className="social-links">
-            <FaFacebookSquare className="icon" />
-            <AiFillInstagram className="icon" />
-            <FaTwitter className="icon" />
+            <img src={arrow} alt="" />
           </div>
         </div>
       </div>

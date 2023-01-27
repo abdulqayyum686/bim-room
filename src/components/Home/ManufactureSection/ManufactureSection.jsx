@@ -35,10 +35,10 @@ const ManufactureSection = () => {
   const { t } = useTranslation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [showAll, setShowAll] = useState(6);
+  const [showAll, setShowAll] = useState(8);
 
   const toggleResultShow = () => {
-    setShowAll(showAll === brandLogos.length ? 6 : brandLogos.length);
+    setShowAll(showAll === brandLogos.length ? 8 : brandLogos.length);
   };
 
   const handleManufacturer = (name) => {
@@ -53,7 +53,7 @@ const ManufactureSection = () => {
         <div className="row">
           {brandLogos.slice(0, showAll).map((data, idx) => (
             <div
-              className="col-lg-2 col-md-4 col-sm-6 col-xs-12 single-item"
+              className="col-lg-3 col-md-4 col-sm-6 col-xs-12 single-item"
               key={idx}
               onClick={() => handleManufacturer(data.label)}
             >
@@ -67,7 +67,7 @@ const ManufactureSection = () => {
       <LoadMore
         text={
           showAll !== brandLogos.length
-            ? "Show all manufacturers"
+            ? "Show all"
             : "Hide manufacturers"
         }
         down={showAll !== brandLogos.length ? true : false}
