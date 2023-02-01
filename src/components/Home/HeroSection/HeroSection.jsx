@@ -1,12 +1,7 @@
 import React from "react";
 import "./heroSection.scss";
-
-// packages
-import Slider from "react-slick";
-
-// components
-import View1 from "./View1";
-import View2 from "./View2";
+import Vector2 from "../../../assets/images/home/Vector2.png";
+import pic1 from "../../../assets/images/home/pic1.png";
 
 const HeroSection = () => {
   const settings = {
@@ -17,10 +12,21 @@ const HeroSection = () => {
 
   return (
     <div className="hero-section">
-      <Slider {...settings} className="carousel">
-        <View2 />
-        <View1 />
-      </Slider>
+      <div className="main_box">
+        <div className="mai_heading">BIM OBJECTS FOR ARCHITECTS</div>
+        <div className="sub_heading">
+          Bring your vision to life with the best BIM objects available!
+        </div>
+        <div className="main_box_button">
+          <span>
+            <img src={Vector2} alt="" />
+          </span>
+          <span className="button_text">Browse the library</span>
+        </div>
+      </div>
+      <div className="second_main_box">
+        <img src={pic1} alt=""  height="100%" />
+      </div>
     </div>
   );
 };
