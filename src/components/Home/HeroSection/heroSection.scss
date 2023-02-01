@@ -1,35 +1,80 @@
 .hero-section {
+  display: flex;
+  // min-width: 1600px;
+  justify-content: space-between;
+  padding: 10% 25px;
+  background: #175c83;
 
-  .carousel {
-
-    .slick-list {
-      overflow: unset !important;
-
+  .main_box {
+    flex: 5;
+    .mai_heading {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 70px;
+      letter-spacing: 0.02em;
+      color: #f5f5f5;
     }
-
-    .slick-arrow {
-      display: none !important;
+    .sub_heading {
+      margin-top: 21px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 34px;
+      line-height: 42px;
+      color: #f5f5f5;
     }
+    .main_box_button {
+      cursor: pointer;
+      margin-top: 66px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 10px;
+      width: 350px;
+      height: 70px;
+      background: #ffffff;
+      border-radius: 24px;
 
-    .slick-dots {
-      bottom: 15px !important;
+      .button_text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 24px;
+        color: #175c83;
+      }
+    }
+  }
+  .second_main_box {
+    flex: 5;
+  }
+}
 
-      li button:before {
+@media screen and (max-width: 1280px) {
+  .mai_heading {
+    font-size: 55px !important;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .hero-section {
+    flex-direction: column;
+    .main_box {
+      .mai_heading {
+        font-size: 35px !important;
+      }
+      .main_box_button {
         display: none;
       }
-
-      li {
-        width: 12px !important;
-        height: 12px !important;
-        background-color: #fff !important;
-        border-radius: 50%;
-        border: 1px solid #313133;
-        transition: all .1s ease;
-      }
-
-      .slick-active {
-        background-color: #f7a928 !important;
-      }
     }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .mai_heading {
+    font-size: 25px !important;
   }
 }
